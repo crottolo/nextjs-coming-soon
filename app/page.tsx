@@ -4,7 +4,7 @@ import { AuroraBackground } from '@/components/ui/aurora-background';
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-export function AuroraBackgroundDemo() {
+const AuroraBackgroundDemo = () => {
   return (
 
     <AuroraBackground>
@@ -19,12 +19,12 @@ export function AuroraBackgroundDemo() {
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
         <div className="text-4xl md:text-7xl font-bold dark:text-white text-center text-purple-500 sm:text-9xl">
-          Miss Rent Sta arrivando
+          Stiamo Arrivando
         </div>
         <div className="font-extralight text-2xl md:text-6xl dark:text-neutral-200 py-4 text-purple-900">
           E sarà tutto diverso.
         </div>
-        <Link href="https://instagram.com/missrent.it" className="bg-violet-500 dark:bg-white rounded-full border-2 border-white w-fit text-white dark:text-black px-4 py-2 hover:bg-violet-600 hover:border-violet-600" target="_blank">
+        <Link href="https://instagram.com/" className="bg-violet-500 dark:bg-white rounded-full border-2 border-white w-fit text-white dark:text-black px-4 py-2 hover:bg-violet-600 hover:border-violet-600" target="_blank">
           Seguici
         </Link>
       </motion.div>
