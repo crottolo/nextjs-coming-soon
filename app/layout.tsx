@@ -16,6 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <meta name="facebook-domain-verification" content="2nw0n9nbv9t1npxcf7bvk6v5v6g03z" />
       <body className={inter.className}>{children}</body>
     </html>
   );
